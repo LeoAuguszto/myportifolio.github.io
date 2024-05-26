@@ -1,0 +1,83 @@
+@import "style.css";
+
+
+.services-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.services-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 25rem;
+    margin-bottom: 1rem;
+}
+
+.services-container .services-box{
+    padding: 2rem 1rem 2.5rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: solid 0.15rem var(--bg-color-01);
+    background-color: var(--bg-color-02);
+    transition:  0.5s ease;
+}
+
+.services-container .services-box:hover{
+    border-color: var(--main-color);
+    transform:  scale(1.01);
+}
+
+.services-box i{
+    font-size: 4.3rem;
+    color: var(--main-color);
+}
+
+.services-box h3{
+    font-size: 1.5rem;
+}
+
+.services-box p{
+    margin: 0.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (min-width: 0px){
+    .services-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-box{
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px){
+    .services-box{
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px){
+    .services-box{
+        width: 60%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 992px){
+ 
+    .services-container{
+        flex-direction: row;
+        gap:1.2rem;
+    }
+
+}
+
+
