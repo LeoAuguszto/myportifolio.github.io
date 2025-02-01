@@ -24,3 +24,5 @@ function ChangeSize(){
         nav.style.display ='none';
     }
 }
+
+

@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="CSS/portifolio.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+    <!-- Importar os scripts JavaScript -->
+    <script src="JS/script.js" defer></script>
+    <script src="JS/modal.js" defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+    <!-- /Importar os scripts JavaScript -->
+
 </head>
 <body onresize="ChangeSize()">
     <header>
@@ -56,8 +62,7 @@
             </div>
 
             <div>
-                <a href="https://drive.google.com/uc?export=download&id=1_Xe0cqNaJnPZfM7AbsaY3y8GrNfpMAf7" class="btn">Download Currículo</a>
-                
+                <a href="https://drive.google.com/uc?export=download&id=1JrKct_ElkbH1CryztgoYRFZHbOsYIAYk" class="btn">Download Currículo</a>
             </div>
 
         </div>
@@ -74,56 +79,54 @@
 
         <div class="services-container">
             <div class="services-box">
-                <i class='bx bx-code-alt' ></i>
-                <h3>Web Development</h3>
-                <p>
-                    O desenvolvimento web abrange a construção de páginas e aplicativos que podem ser acessados por meio de navegadores web.
-                    Para começar, você precisa configurar as ferramentas necessárias e planejar o conteúdo e design do seu site1.
-                    O HTML é usado para estruturar o conteúdo da página, como parágrafos, imagens e tabelas.
-                    Ele dá significado e propósito ao seu conteúdo web.
-                    O CSS é responsável pelo estilo visual do seu site.
-                    Você pode definir cores, fontes, posicionamento de elementos e muito mais com CSS.
-                    O JavaScript permite adicionar recursos interativos ao seu site.
-                    Com ele, você pode criar animações, validar formulários e muito mais.     
+                <i id ="icon1" class='bx bx-code-alt'></i>
+                <h3 id="title1">Web Development</h3>
+                <p id="content1">
+                    Como programador web, minha rotina diária envolve uma série de atividades técnicas que 
+                    são essenciais para o desenvolvimento e manutenção de sites e aplicações web. Utilizo 
+                    diversas linguagens de programação, como HTML, CSS, JavaScript, PHP e ASPNET, para criar 
+                    interfaces de usuário interativas e funcionais     
                 </p>
-
-                <a href="#" class="btn">Leia Mais</a>
+                <button id="btn1" class="btn">Leia Mais</button>
 
             </div>
 
             <div class="services-box">
-                <i class='bx bx-code-curly' ></i>
-                <h3>Back-End Development</h3>
-                <p>
-                    O desenvolvimento web abrange a construção de páginas e aplicativos que podem ser acessados por meio de navegadores web.
-                    Para começar, você precisa configurar as ferramentas necessárias e planejar o conteúdo e design do seu site1.
-                    O HTML é usado para estruturar o conteúdo da página, como parágrafos, imagens e tabelas.
-                    Ele dá significado e propósito ao seu conteúdo web.
-                    O CSS é responsável pelo estilo visual do seu site.
-                    Você pode definir cores, fontes, posicionamento de elementos e muito mais com CSS.
-                    O JavaScript permite adicionar recursos interativos ao seu site.
-                    Com ele, você pode criar animações, validar formulários e muito mais.     
+                <i id ="icon2" class='bx bx-code-curly' ></i>
+                <h3 id="title2">Back-End Development</h3>
+                <p id="content2">
+                    Desenvolvimento de APIs: Criar e manter interfaces que permitem a comunicação entre o front-end e o back-end.
+                    Gerenciamento de Bancos de Dados: Projetar, implementar e otimizar bancos de dados.
+                    Segurança: Proteger dados sensíveis e implementar medidas de segurança.
+                    Escalabilidade e Desempenho: Otimizar o sistema para lidar com grandes volumes de dados e usuários.
+                    Linguagens de Programação: Conhecimento em linguagens como Python, C#, PHP, Javascript e C++.
+                    Frameworks: Experiência com frameworks como .NET.
+                    Bancos de Dados: Familiaridade com bancos de dados relacionais (como SQL Server).
+                    Versionamento de Código: Uso de ferramentas como Git para controle de versão.    
                 </p>
 
-                <a href="#" class="btn">Leia Mais</a>
+                <button id="btn2" class="btn">Leia Mais</button>
 
             </div>
 
             <div class="services-box">
-                <i class='bx bx-code' ></i>
-                <h3>Front-End Development</h3>
-                <p>
-                    O desenvolvimento web abrange a construção de páginas e aplicativos que podem ser acessados por meio de navegadores web.
-                    Para começar, você precisa configurar as ferramentas necessárias e planejar o conteúdo e design do seu site1.
-                    O HTML é usado para estruturar o conteúdo da página, como parágrafos, imagens e tabelas.
-                    Ele dá significado e propósito ao seu conteúdo web.
-                    O CSS é responsável pelo estilo visual do seu site.
-                    Você pode definir cores, fontes, posicionamento de elementos e muito mais com CSS.
-                    O JavaScript permite adicionar recursos interativos ao seu site.
-                    Com ele, você pode criar animações, validar formulários e muito mais.     
+                <i id ="icon3" class='bx bx-code' ></i>
+                <h3 id="title3">Front-End Development</h3>
+                <p id="content3">
+                    Como desenvolvedor front-end, minha experiência envolve criar interfaces de usuário atraentes e funcionais 
+                    para sites e aplicativos. Aqui estão alguns pontos principais sobre o que faço no meu dia a dia:
+                    Principais Responsabilidades:Desenvolvimento de Interfaces: Utilizo HTML, CSS e 
+                    JavaScript para construir a estrutura, o estilo e a interatividade das páginas web.
+                    Design Responsivo: Garanto que os sites funcionem bem em diferentes dispositivos e tamanhos de tela, 
+                    utilizando técnicas de design responsivo.
+                    Otimização de Desempenho: Melhoro a velocidade de carregamento e a performance das páginas, garantindo uma 
+                    experiência de usuário suave.
+                    Frameworks e Bibliotecas: Experiência com frameworks como React ou Vue.js, que ajudam a agilizar o desenvolvimento.
+                    Ferramentas de Versionamento: Uso de Git para controle de versão e colaboração em equipe.
+     
                 </p>
 
-                <a href="#" class="btn">Leia Mais</a>
+                <button id="btn3" class="btn">Leia Mais</button>
 
             </div>
         </div>
@@ -205,7 +208,7 @@
                 como analista de sistema, QA e projetista.
             </p>
             
-            <a href="/Pages/aboutMe.html" class="btn">Leia mais</a>
+            <a href="Pages/aboutMe.html" class="btn">Leia mais</a>
         </div>
     </section>
     <!-- /about section -->
@@ -230,7 +233,19 @@
         </form>
     </section>
     <!-- /contact section -->
-
+    
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalIcon"></div>
+            
+            <h1 id="modalTitle"></h1>
+            
+            <p id="modalContent"></p>
+        </div>
+    </div>
+    <!-- /Modal -->
 
 
     <footer>
@@ -238,7 +253,5 @@
     </footer>
 
 </body>
-<script src="JS/script.js">
-    
-</script>
+
 </html>

@@ -3,19 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/about.css">
-    <link rel="stylesheet" href="/CSS//style.css">
-    <link rel="stylesheet" href="/Pages/CSS/style.css">
+    <link rel="stylesheet" href="../CSS/about.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../Pages/CSS/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>About Me</title>
     
 </head>
-<body>
-    <section class="aboutMe">
-        <a href="/index.html">voltar</a>
-        <div class="Me">
-            <h1>About Me</h1>
-            <p>Meu conhecimento abrange linguagens como C, C++, Python, Clarion, JavaScript, SQL e 
+<body onresize="ChangeSize()">
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+
+        <div class="nav">
+            <a href="../index.html">Home</a>
+            <a href="#">About <span>Me</span></a>
+
+            
+        </div>
+
+        <div class="menu-hamburguer">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </header>
+
+
+    <section class="aboutMe">   
+        <div class="Me" id="about">
+            <h1>About <span>Me</span></h1>
+            <p>
+                Meu conhecimento abrange linguagens como C, C++, Python, Clarion, JavaScript, SQL e 
                 C#. Ao longo do tempo, desenvolvi várias aplicações pessoais e profissionais, sempre 
                 buscando aprender e me manter atualizado.
                 O que mais me encanta na área de desenvolvimento é a satisfação de concluir projetos e 
@@ -26,42 +44,42 @@
             <div class="about-container">
                 <div class="about-box">
                     <h3 class="">C</h3> 
-                    <img src="/IMG/LogoC.png" alt="Logo C">  
+                    <img src="../IMG/LogoC.png" alt="Logo C">  
                 </div>
 
                 <div class="about-box">
                     <h3 class="">C++</h3>
-                    <img src="/IMG/LogoC++.png" alt="Logo C++">
+                    <img src="../IMG/LogoC++.png" alt="Logo C++">
                 </div>
 
                 <div class="about-box">
                     <h3 class="">Python</h3>
-                    <img src="/IMG/LogoPython.png" alt="Logo Python">
+                    <img src="../IMG/LogoPython.png" alt="Logo Python">
                 </div>
 
                 <div class="about-box">
                     <h3 class="">PHP</h3>
-                    <img src="/IMG/LogoPHP.png" alt="Logo PHP">
+                    <img src="../IMG/LogoPHP.png" alt="Logo PHP">
                 </div>
 
                 <div class="about-box">
                     <h3 class="">Clarion</h3>
-                    <img src="/IMG/LogoClarion.png" alt="Logo Clarion">
+                    <img src="../IMG/LogoClarion.png" alt="Logo Clarion">
                 </div>
 
                 <div class="about-box">
                     <h3 class="">JavaScript</h3>
-                    <img src="/IMG/Logojavascript.png" alt="Logo JavaScript">
+                    <img src="../IMG/Logojavascript.png" alt="Logo JavaScript">
                 </div>
 
                 <div class="about-box">
                     <h3 class="">SQL</h3>
-                    <img src="/IMG/LogoSQL.png" alt="Logo SQL">
+                    <img src="../IMG/LogoSQL.png" alt="Logo SQL">
                 </div>
 
                 <div class="about-box">
                     <h3 class="">C#</h3>
-                    <img src="/IMG/LogoCsharp.png" alt="Logo C#">
+                    <img src="../IMG/LogoCsharp.png" alt="Logo C#">
                 </div>
             </div>
     </section>
